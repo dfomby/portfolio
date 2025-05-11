@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 
 #container {background-color:#ffffffe6;
     padding:10px;
     border-style:double;
 }
 
+p, h2, h3, ul a{
+font-family: "Klee One", cursive;
+  font-weight: 400;
 
+}
 
+p{
+    font-size: 1.1em;
+}
 
 body {
     font-family: "Merriweather", serif;
@@ -21,6 +28,14 @@ body {
     width:40%;
 }
 
+#about{
+    text-align: center;
+    border-style:solid;
+    border-color: rgba(97, 84, 114, 1);
+    margin-top: 10px;
+    background-color:rgba(86, 136, 148, 0.33);
+}
+
 h2{
     font-size:2rem;
 }
@@ -28,20 +43,25 @@ h2{
 h3{
 line-height: 1.6em;
 font-size: 1.5rem;
-
 }
 
-h2, h3{
-font-family: "Klee One", cursive;
-  font-weight: 400;
+h3 a{
+    text-decoration: none;
+    color:black;
 }
 
+h3 a:hover{
+    background-color: rgba(86, 136, 148, 1);
+    color:white;
+}
 
 h1 {
-    font-size: 1.5rem;
-    font-family: "Rampart One", sans-serif;
+    font-size: 2.3rem;
+    
+font-family: "Delius Swash Caps", cursive;
   font-weight: 400;
-    letter-spacing: 0.05rem;
+
+    letter-spacing: 0.1rem;
 
     font-style: normal;
 
@@ -74,7 +94,7 @@ nav ul {
     display: none;
     text-align: center;
     right: 0;
-    top: 40px;
+    top: 60px;
     z-index: 100;
     border: solid 1px black;
     background-color: #b7e2e7;
@@ -120,13 +140,16 @@ nav ul {
 
 
  .home main {
-        display:flex;
-   padding: 10px;
-   justify-content: space-between;
-  text-align: center;
+       display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+        grid-gap: 1em;
+        text-align: center;
+        justify-content: space-evenly;
     }
 
-
+section{
+    flex:content;
+}
 
 
 
@@ -145,7 +168,7 @@ nav ul {
     }
 
     #top-nav li a {
-        padding-block: 23px;
+        padding-block: 40px;
         padding-left: 10px;
         padding-right: 10px;
      
