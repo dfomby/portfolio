@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 
+
+
+
 #container {background-color:#ffffffe6;
     padding:10px;
     border-style:double;
@@ -23,10 +26,7 @@ body {
     background:url("background.jpg") repeat center/cover;
 }
 
-#intro{
-    margin-top: 10px;
-    width:40%;
-}
+
 
 #about{
     text-align: center;
@@ -133,16 +133,19 @@ nav ul {
 /** menu bar end **/
 
 
+
+
+
 .material-symbols-outlined {
     float: right;
 
 }
 
 
- .home main {
+ .second main {
        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
-        grid-gap: 1em;
+        grid-gap: 1.5em;
         text-align: center;
         justify-content: space-evenly;
     }
@@ -150,6 +153,125 @@ nav ul {
 section{
     flex:content;
 }
+
+.intro img{
+width:60%;
+}
+
+/* Program Cards */
+.card {
+    border: solid 4px #A1CECB;
+    border-radius: 10px;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.5s;
+    margin-bottom: 2em;
+
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card img {
+    border-radius: 6px 6px 0 0;
+}
+
+.card h3 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card h2 span {
+    font-weight: normal;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #4a4a4a;
+    /* X shift, Y shift, Blur, Color */
+    transform: translateY(-5px)
+}
+
+/* Utility Classes */
+.responsive-img {
+    width: 100%;
+}
+
+.c-black {
+    color: black;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.dropdown {
+    background-color:#b7e2e7;
+    margin-bottom: 1em;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+     transition-property: box-shadow, transform;
+    transition-duration: 0.5s;
+
+}
+
+
+
+
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: block;
+
+}
+
+
+
+.dropdown:hover {
+        
+ box-shadow: 5px 5px 5px #4a4a4a;
+    /* X shift, Y shift, Blur, Color */
+    transform: translateY(-5px);
+     background-color:#d1d9ec
+     
+}
+    
+.current {
+     background-color:#d1d9ec;
+  margin-bottom: 1em;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition-property: box-shadow, transform;
+  transition-duration: 0.5s;
+}
+.current a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: block;
+
+}
+
+
+
+.current:hover {
+        
+ box-shadow: 5px 5px 5px #4a4a4a;
+    /* X shift, Y shift, Blur, Color */
+    transform: translateY(-5px);
+     background-color:#d1d9ec
+     
+}
+
 
 
 
@@ -198,4 +320,85 @@ section{
 
     }
 
+    .programs-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 1em;
+    }
+
+    .card {
+        height: 98%;
+
+    }
+
+
+    .programs-menu {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .dropdown {
+        width: 20%;
+        padding: 0;
+        font-size: 1.2rem;
+text-align: center;
+    display:grid;
+
+
+    }
+
+    
+    .dropdown ul {
+        position: absolute;
+text-align: center;
+        box-sizing: border-box;
+        width: 20%;
+        margin-top: -5px;
+        border-style: solid;
+        border-color: #A1CECB;
+        border-width: 4px;
+        border-radius: 0 0 10px 10px;
+
+    }
+
+
+     .current {
+        width: 20%;
+        padding: 0;
+        font-size: 1.2rem;
+text-align: center;
+    display:grid;
+
+
+    }
+
+    
+    .current ul {
+        position: absolute;
+
+        box-sizing: border-box;
+        width:20%;
+        margin-top: -5px;
+        border-style: solid;
+        border-color: #A1CECB;
+        border-width: 4px;
+        border-radius: 0 0 10px 10px;
+
+    }
+.first main{
+       display: grid;
+        grid-template-columns: minmax(300px, 1fr)1fr;
+        grid-gap: none;
+
+    }
+
+.intro img{
+    max-width:60%;
+float:right;
+    margin-top: 10px;
+  
+   
+}
+    
 }
