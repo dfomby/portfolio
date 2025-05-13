@@ -160,7 +160,7 @@ width:60%;
 
 /* Program Cards */
 .card {
-    border: solid 4px #A1CECB;
+    border: solid 4px rgba(97, 84, 114, 1);
     border-radius: 10px;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
@@ -177,9 +177,16 @@ width:60%;
 }
 
 .card h3 {
-    font-size: 0.8em;
+    font-size: 1.2em;
     text-transform: uppercase;
     margin-bottom: 0;
+    color:white;
+    background-color: rgba(97, 84, 114, 1);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 2em;
 }
 
 .card h2 {
@@ -216,8 +223,9 @@ width:60%;
     padding: 4px;
     border-radius: 10px;
     font-size: 1.2rem;
-     transition-property: box-shadow, transform;
+     transition-property: transform, box-shadow;
     transition-duration: 0.5s;
+    box-shadow: 5px 5px #84adb2;
 
 }
 
@@ -236,10 +244,9 @@ width:60%;
 
 
 .dropdown:hover {
-        
- box-shadow: 5px 5px 5px #4a4a4a;
+ box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
-    transform: translateY(-5px);
+    transform:translate3d(5px);
      background-color:#d1d9ec
      
 }
@@ -250,8 +257,9 @@ width:60%;
   padding: 4px;
   border-radius: 10px;
   font-size: 1.2rem;
-  transition-property: box-shadow, transform;
+  transition-property: transform, box-shadow;
   transition-duration: 0.5s;
+  box-shadow: 5px 5px rgba(97, 84, 114, 1);
 }
 .current a {
     text-decoration: none;
@@ -265,15 +273,21 @@ width:60%;
 
 .current:hover {
         
- box-shadow: 5px 5px 5px #4a4a4a;
+ box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
-    transform: translateY(-5px);
+    transform: translate3d(-5px);
      background-color:#d1d9ec
      
 }
 
 
+.card h2 span {
+    font-weight: normal;
+}
 
+.card h2{
+    font-weight: bold;
+}
 
 @media (min-width:768px) {
     .material-symbols-outlined {
