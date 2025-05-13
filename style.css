@@ -145,7 +145,7 @@ nav ul {
  .second main {
        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
-        grid-gap: 1.5em;
+        grid-gap: 3.5em;
         text-align: center;
         justify-content: space-evenly;
     }
@@ -156,6 +156,7 @@ section{
 
 .intro img{
 width:60%;
+
 }
 
 /* Program Cards */
@@ -165,6 +166,7 @@ width:60%;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
     margin-bottom: 2em;
+    background-color: white;
 
 }
 
@@ -176,18 +178,6 @@ width:60%;
     border-radius: 6px 6px 0 0;
 }
 
-.card h3 {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    color:white;
-    background-color: rgba(97, 84, 114, 1);
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    display: inline-block;
-    margin-bottom: 2em;
-}
 
 .card h2 {
     margin-top: 0;
@@ -218,14 +208,16 @@ width:60%;
 }
 
 .dropdown {
-    background-color:#b7e2e7;
+    background-color:white;
+    border-style:solid;
+    border-width: 1px;
     margin-bottom: 1em;
     padding: 4px;
     border-radius: 10px;
     font-size: 1.2rem;
-     transition-property: transform, box-shadow;
+     transition-property: transform, box-shadow, background-color;
     transition-duration: 0.5s;
-    box-shadow: 5px 5px #84adb2;
+    box-shadow: 5px 5px rgba(86, 136, 148, 1);
 
 }
 
@@ -247,7 +239,7 @@ width:60%;
  box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
     transform:translate3d(5px);
-     background-color:#d1d9ec
+     background-color:#d1d9ec;
      
 }
     
@@ -260,6 +252,8 @@ width:60%;
   transition-property: transform, box-shadow;
   transition-duration: 0.5s;
   box-shadow: 5px 5px rgba(97, 84, 114, 1);
+  border-style:solid;
+    border-width: 1px;
 }
 .current a {
     text-decoration: none;
@@ -276,7 +270,7 @@ width:60%;
  box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
     transform: translate3d(-5px);
-     background-color:#d1d9ec
+     background-color:#d1d9ec;
      
 }
 
@@ -287,6 +281,13 @@ width:60%;
 
 .card h2{
     font-weight: bold;
+}
+
+
+
+
+.programs-nav{
+    text-align: center;
 }
 
 @media (min-width:768px) {
@@ -341,7 +342,7 @@ width:60%;
     }
 
     .card {
-        height: 98%;
+        height: 100%;
 
     }
 
