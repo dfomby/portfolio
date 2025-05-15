@@ -7,6 +7,7 @@
 #container {background-color:#ffffffe6;
     padding:10px;
     border-style:double;
+    position:absolute;
 }
 
 p, h2, h3, ul a{
@@ -188,6 +189,12 @@ width:60%;
     font-weight: normal;
 }
 
+.card h3 {
+    font-size:1em;
+    margin-top:0;
+    margin-bottom: -4px;
+}
+
 .card:hover {
     box-shadow: 5px 5px 5px #4a4a4a;
     /* X shift, Y shift, Blur, Color */
@@ -298,6 +305,7 @@ width:60%;
 .projects img{
     max-width: 95%;
     float:right;
+    margin-top: -30px;
 }
 
 
@@ -416,8 +424,6 @@ text-align: center;
 .first main{
        display: grid;
         grid-template-columns: minmax(300px, 1fr)1fr;
-        grid-gap: none;
-
     }
 
 .intro img{
