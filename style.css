@@ -290,6 +290,18 @@ width:60%;
     text-align: center;
 }
 
+
+.project_intro h2{
+    text-align: center;
+}
+
+.projects img{
+    max-width: 95%;
+    float:right;
+}
+
+
+
 @media (min-width:768px) {
     .material-symbols-outlined {
         display: none;
@@ -415,5 +427,9 @@ float:right;
   
    
 }
-    
+    .projects{
+       display: grid;
+        grid-template-columns: minmax(300px, 1fr)1fr;
+
+    }
 }
