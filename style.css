@@ -27,7 +27,12 @@ body {
     background:url("background.jpg") repeat center/cover;
 }
 
-
+li a{
+    text-decoration: none;
+}
+li{
+     list-style-type: none;
+}
 
 #about{
     text-align: center;
@@ -305,9 +310,12 @@ width:60%;
 .projects img{
     max-width: 95%;
     float:right;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
+.project_intro li{
+    text-decoration: underline;
+}
 
 
 @media (min-width:768px) {
