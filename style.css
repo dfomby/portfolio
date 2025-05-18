@@ -180,6 +180,7 @@ section {
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
     background-color: white;
+    margin-bottom: 10px;
 
 }
 
