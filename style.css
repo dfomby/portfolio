@@ -8,7 +8,7 @@
     background-color: #ffffffe6;
     padding: 10px;
     border-style: double;
-padding: 1em;
+    padding: 1em;
     margin-right: 10px;
 
 
@@ -30,8 +30,8 @@ p {
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
-margin-left: 8%;
-margin-right: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
     background: url("background.jpg") repeat center/cover;
 }
 
@@ -127,6 +127,11 @@ nav ul {
 
 .menuwrap:hover #top-nav {
     display: block;
+
+}
+
+.material-symbols-outlined {
+    color: white;
 
 }
 
