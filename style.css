@@ -8,8 +8,9 @@
     background-color: #ffffffe6;
     padding: 10px;
     border-style: double;
-
+padding: 1em;
     margin-right: 10px;
+
 
 }
 
@@ -29,7 +30,8 @@ p {
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
-
+margin-left: 8%;
+margin-right: 8%;
     background: url("background.jpg") repeat center/cover;
 }
 
@@ -258,7 +260,7 @@ section {
 .dropdown:hover {
     box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
-    transform: translate3d(5px);
+
     background-color: #d1d9ec;
 
 }
@@ -290,7 +292,6 @@ section {
 
     box-shadow: 5px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
-    transform: translate3d(-5px);
     background-color: #d1d9ec;
 
 }
@@ -448,11 +449,11 @@ section {
 
     .first main {
         display: grid;
-        grid-template-columns: minmax(400px, 1fr)1fr;
+        grid-template-columns: minmax(200px, 1fr)1fr;
     }
 
     .intro img {
-        max-width: 60%;
+        max-width: 100%;
         float: right;
         margin-top: 10px;
 
