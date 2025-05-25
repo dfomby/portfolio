@@ -9,7 +9,6 @@
     padding: 10px;
     border-style: double;
     padding: 1em;
-    margin-right: 10px;
 
 
 }
@@ -30,8 +29,6 @@ p {
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
-    margin-left: 8%;
-    margin-right: 8%;
     background: url("background.jpg") repeat center/cover;
 }
 
@@ -339,6 +336,15 @@ section {
 
 
 @media (min-width:768px) {
+    body {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    #container {
+        margin-right: 10px;
+    }
+
     .material-symbols-outlined {
         display: none;
     }
