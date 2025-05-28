@@ -6,9 +6,8 @@
 
 #container {
     background-color: #ffffffe6;
-    padding: 10px;
+
     border-style: double;
-    padding: 1em;
 
 
 }
@@ -30,6 +29,10 @@ body {
     font-family: "Merriweather", serif;
     font-style: normal;
     background: url("background.jpg") repeat center/cover;
+}
+
+.padding {
+    padding: 10px;
 }
 
 li a {
@@ -392,7 +395,7 @@ section {
     .programs-cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        grid-gap: 1em;
+        grid-gap: 1.2em;
     }
 
     .card {
