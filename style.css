@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 
@@ -13,20 +13,27 @@
 }
 
 .intro h2 b{
-    font-size:2.5rem;
+    font-size:2.7rem;
+    font-family: "Klee One", cursive;
+}
+
+.intro h2{
+    font-family: "inter", cursive;
+    line-height: 1.5em;
+    font-size: 2.1 rem;
 }
 
 p,
-h2,
 h3,
 ul a {
-    font-family: "Klee One", cursive;
-    font-weight: 400;
+    font-family: "Inter", cursive;
+    font-weight: 250;
 
 }
 
+
 p {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 body {
@@ -36,7 +43,7 @@ body {
 }
 
 .padding {
-    padding: 10px;
+    padding: 20px;
 }
 
 li a {
@@ -57,11 +64,14 @@ li {
 
 h2 {
     font-size: 2rem;
+    font-family:"klee One";
+font-weight:250;
 }
 
 h3 {
     line-height: 1.6em;
     font-size: 1.5rem;
+    
 }
 
 h3 a {
@@ -72,6 +82,10 @@ h3 a {
 h3 a:hover {
     background-color: rgba(86, 136, 148, 1);
     color: white;
+}
+
+p {
+    line-height:1.6em;
 }
 
 h1 {
@@ -99,6 +113,7 @@ header {
     align-items: center;
     position: relative;
     background-color: rgba(97, 84, 114, 1);
+   
 }
 
 nav ul {
@@ -330,7 +345,7 @@ section {
 }
 
 .projects img {
-    max-width: 70%;
+    max-width: 95%;
 
     height: auto;
     margin-top: 15px;
