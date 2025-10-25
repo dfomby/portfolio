@@ -39,7 +39,7 @@ p {
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
-    background: url("background.jpg") repeat center/cover;
+    background: url("images/background.jpg") repeat center/cover;
 }
 
 .padding {
