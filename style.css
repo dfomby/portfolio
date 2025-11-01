@@ -116,6 +116,15 @@ header {
    
 }
 
+header a{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+header img{
+width: 170px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -381,7 +390,7 @@ section {
     }
 
     #top-nav li a {
-        padding-block: 40px;
+        padding-block: 75px;
         padding-left: 10px;
         padding-right: 10px;
 
@@ -390,7 +399,8 @@ section {
 
     #top-nav ul {
         display: flex;
-        font-size: 1.4em;
+        font-size: 2em;
+    
 
 
     }
@@ -402,7 +412,7 @@ section {
     }
 
     #top-nav li {
-        margin: 0 20px;
+        margin: 0 25px;
         margin-right: -0.1px;
     }
 
