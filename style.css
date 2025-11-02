@@ -116,13 +116,13 @@ header {
    
 }
 
-header a{
-    padding-left: 30px;
-    padding-bottom: 15px;
-}
+
 
 header img{
-width: 170px;
+width: 200px;
+margin-bottom: -40px;
+margin-top:-10px;
+margin-left: -10px;
 }
 
 nav ul {
@@ -380,6 +380,15 @@ section {
         display: none;
     }
 
+    header img{
+width: 270px;
+margin-bottom: -80px;
+margin-top:-40px;
+margin-left:-20px;
+margin-right: -50px;
+
+}
+
     #top-nav {
         display: flex;
         position: static;
@@ -399,7 +408,7 @@ section {
 
     #top-nav ul {
         display: flex;
-        font-size: 2em;
+        font-size: 1.7em;
     
 
 
