@@ -12,12 +12,12 @@
 
 }
 
-.intro h2 b{
-    font-size:2.7rem;
+.intro h2 b {
+    font-size: 2.7rem;
     font-family: "Klee One", cursive;
 }
 
-.intro h2{
+.intro h2 {
     font-family: "inter", cursive;
     line-height: 1.5em;
     font-size: 2.1 rem;
@@ -64,14 +64,14 @@ li {
 
 h2 {
     font-size: 2rem;
-    font-family:"klee One";
-font-weight:250;
+    font-family: "klee One";
+    font-weight: 250;
 }
 
 h3 {
     line-height: 1.6em;
     font-size: 1.5rem;
-    
+
 }
 
 h3 a {
@@ -85,7 +85,7 @@ h3 a:hover {
 }
 
 p {
-    line-height:1.6em;
+    line-height: 1.6em;
 }
 
 h1 {
@@ -113,16 +113,16 @@ header {
     align-items: center;
     position: relative;
     background-color: rgba(97, 84, 114, 1);
-   
+
 }
 
 
 
-header img{
-width: 200px;
-margin-bottom: -40px;
-margin-top:-10px;
-margin-left: -25px;
+header img {
+    width: 200px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+    margin-left: -25px;
 }
 
 nav ul {
@@ -380,14 +380,14 @@ section {
         display: none;
     }
 
-    header img{
-width: 270px;
-margin-bottom: -80px;
-margin-top:-40px;
-margin-left:-30px;
-margin-right: -50px;
+    header img {
+        width: 270px;
+        margin-bottom: -80px;
+        margin-top: -40px;
+        margin-left: -30px;
+        margin-right: -50px;
 
-}
+    }
 
     #top-nav {
         display: flex;
@@ -409,7 +409,7 @@ margin-right: -50px;
     #top-nav ul {
         display: flex;
         font-size: 1.7em;
-    
+
 
 
     }
@@ -506,8 +506,8 @@ margin-right: -50px;
 
     .intro img {
         max-width: 100%;
-        float:right;
-        margin-right:40px;
+        float: right;
+        margin-right: 40px;
         padding-top: 10px;
 
 
