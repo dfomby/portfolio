@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.expandableImage{
+  cursor: pointer;
+  transition: transform 0.25s ease, z-index 0s; 
+  z-index:1
+}
 
+.expandableImage.expanded {
+  transform: scale(1.1);
+  z-index:100;
+}
 
 #container {
     background-color: #ffffffe6;
@@ -367,6 +376,12 @@ section {
 
 
 @media (min-width:768px) {
+    .expandableImage.expanded {
+    transform: scale(1.5); 
+    z-index:100;
+    }
+ 
+  
     body {
         margin-left: 8%;
         margin-right: 8%;
