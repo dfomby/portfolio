@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Adjust value as needed for your fixed header height */
+}
+
+
 .expandableImage{
   cursor: pointer;
   transition: transform 0.25s ease, z-index 0s; 
@@ -45,6 +51,17 @@ p {
     font-size: 1.2em;
 }
 
+p a {
+    text-decoration: underline;
+    color: black;
+}
+
+p a:hover {
+    background-color: rgba(86, 136, 148, 1);
+    color: white;
+}
+
+
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
@@ -71,6 +88,16 @@ li {
     background-color: rgba(86, 136, 148, 0.33);
 }
 
+footer {
+    text-align: center;
+    border-top-style: double;
+    margin-top: 10px;
+    background-color: rgba(86, 136, 148, 0.33);
+    padding:10px;
+    font-size:1.1rem;
+}
+
+
 h2 {
     font-size: 2rem;
     font-family: "klee One";
@@ -84,7 +111,7 @@ h3 {
 }
 
 h3 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
@@ -423,7 +450,7 @@ section {
 
     #top-nav ul {
         display: flex;
-        font-size: 1.7em;
+        font-size: 1.5em;
 
 
 
@@ -436,7 +463,7 @@ section {
     }
 
     #top-nav li {
-        margin: 0 25px;
+        margin: 0 15px;
         margin-right: -0.1px;
     }
 
