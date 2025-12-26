@@ -242,6 +242,7 @@ section {
 
 .intro img {
     width: 60%;
+    margin-left: 20%;
 
 }
 
@@ -554,6 +555,7 @@ section {
         float: right;
         margin-right: 40px;
         padding-top: 10px;
+        margin-left: auto;
 
 
     }
