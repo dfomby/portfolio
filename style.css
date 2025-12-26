@@ -3,20 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem; /* Adjust value as needed for your fixed header height */
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    /* Adjust value as needed for your fixed header height */
 }
 
 
-.expandableImage{
-  cursor: pointer;
-  transition: transform 0.25s ease, z-index 0s; 
-  z-index:1
+.expandableImage {
+    cursor: pointer;
+    transition: transform 0.25s ease, z-index 0s;
+    z-index: 1
 }
 
 .expandableImage.expanded {
-  transform: scale(1.1);
-  z-index:100;
+    transform: scale(1.1);
+    z-index: 100;
 }
 
 #container {
@@ -93,8 +94,8 @@ footer {
     border-top-style: double;
     margin-top: 10px;
     background-color: rgba(86, 136, 148, 0.33);
-    padding:10px;
-    font-size:1.1rem;
+    padding: 10px;
+    font-size: 1.1rem;
 }
 
 
@@ -393,8 +394,8 @@ section {
     max-width: 95%;
     height: auto;
     margin-top: 15px;
-     display: block;
-     margin-left: auto;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -406,11 +407,11 @@ section {
 
 @media (min-width:768px) {
     .expandableImage.expanded {
-    transform: scale(1.5); 
-    z-index:100;
+        transform: scale(1.5);
+        z-index: 100;
     }
- 
-  
+
+
     body {
         margin-left: 8%;
         margin-right: 8%;
