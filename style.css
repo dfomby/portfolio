@@ -30,11 +30,11 @@ html {
 
 .intro h2 b {
     font-size: 2.7rem;
-    font-family: "Klee One", cursive;
+    font-family: "Klee One", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .intro h2 {
-    font-family: "inter", cursive;
+    font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5em;
     font-size: 2.1 rem;
 }
@@ -42,7 +42,7 @@ html {
 p,
 h3,
 ul a {
-    font-family: "Inter", cursive;
+    font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 250;
 
 }
@@ -64,7 +64,7 @@ p a:hover {
 
 
 body {
-    font-family: "Merriweather", serif;
+    font-family: "Inter", serif;
     font-style: normal;
     background: url("images/background.jpg") repeat center/cover;
 }
@@ -128,7 +128,7 @@ p {
 h1 {
     font-size: 2.3rem;
 
-    font-family: "Delius Swash Caps", cursive;
+    font-family: "Delius Swash Caps", Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
 
     letter-spacing: 0.1rem;
