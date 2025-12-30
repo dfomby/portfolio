@@ -87,6 +87,7 @@ li {
     border-color: rgba(97, 84, 114, 1);
     margin-top: 10px;
     background-color: rgba(86, 136, 148, 0.33);
+    border-radius: 15px;
 }
 
 footer {
@@ -387,6 +388,12 @@ section {
     text-align: center;
 }
 
+.project_intro img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .magazine img {
     max-height: 30%;
 }
@@ -399,6 +406,35 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
+.projects_alt img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_container {
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 25px;
+    box-shadow: 5px 5px rgba(97, 84, 114, 0.61);
+    border: solid 3px rgba(97, 84, 114, 1);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project_container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .project_intro a {
     text-decoration: underline;
@@ -559,6 +595,28 @@ section {
 
 
     }
+
+    .project_intro img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects_alt {
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr)2fr;
+
+    }
+
+    .projects_alt img {
+
+        height: auto;
+        margin-top: 15px;
+        display: block;
+        margin-left: 35%;
+        ;
+    }
+
 
     .projects {
         display: grid;
