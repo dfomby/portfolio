@@ -88,6 +88,7 @@ li {
     margin-top: 10px;
     background-color: rgba(86, 136, 148, 0.33);
     border-radius: 15px;
+    padding:5px;
 }
 
 #about2 {
@@ -263,8 +264,8 @@ section {
     border-radius: 10px;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
-    margin-bottom: 10px;
-    height: 290px;
+    margin-bottom: 15px;
+    height: 100%;
 
 
 }
