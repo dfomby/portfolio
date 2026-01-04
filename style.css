@@ -16,7 +16,7 @@ html {
 }
 
 .expandableImage.expanded {
-    transform: scale(1.1);
+    transform: scale(1.3);
     z-index: 100;
 }
 
@@ -88,6 +88,15 @@ li {
     margin-top: 10px;
     background-color: rgba(86, 136, 148, 0.33);
     border-radius: 15px;
+}
+
+#about2 {
+    text-align: center;
+    border-style: solid;
+    border-color:rgba(86, 136, 148, 1);
+    background-color: rgba(86, 136, 148, 1);
+    border-radius: 15px;
+    color:white;
 }
 
 footer {
@@ -249,12 +258,13 @@ section {
 
 /* Program Cards */
 .card {
-    border: solid 3px rgba(97, 84, 114, 1);
+   
     border-radius: 10px;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+
 
 }
 
@@ -263,7 +273,7 @@ section {
 }
 
 .card img {
-    border-radius: 6.5px 6.5px 0 0;
+    border-radius: 6.5px;
 }
 
 
@@ -283,7 +293,7 @@ section {
 }
 
 .card:hover {
-    box-shadow: 5px 5px 5px #4a4a4a;
+    box-shadow: 5px 15px 5px rgba(97, 84, 114, 0.61);
     /* X shift, Y shift, Blur, Color */
     transform: translateY(-5px)
 }
@@ -305,13 +315,14 @@ section {
     background-color: white;
     border-style: solid;
     border-width: 1px;
+    border-color: rgba(86, 136, 148, 1);
     margin-bottom: 1em;
     padding: 4px;
-    border-radius: 10px;
+    border-radius: 50px;
     font-size: 1.2rem;
     transition-property: transform, box-shadow, background-color;
     transition-duration: 0.5s;
-    box-shadow: 5px 5px rgba(86, 136, 148, 1);
+    box-shadow: 0px 5px rgba(86, 136, 148, 1);
 
 }
 
@@ -330,10 +341,11 @@ section {
 
 
 .dropdown:hover {
-    box-shadow: 5px 5px rgba(97, 84, 114, 1);
+    box-shadow: 0px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
 
     background-color: #d1d9ec;
+    border-color:rgba(97, 84, 114, 1);
 
 }
 
@@ -341,13 +353,14 @@ section {
     background-color: #d1d9ec;
     margin-bottom: 1em;
     padding: 4px;
-    border-radius: 10px;
+    border-radius: 50px;
     font-size: 1.2rem;
     transition-property: transform, box-shadow;
     transition-duration: 0.5s;
-    box-shadow: 5px 5px rgba(97, 84, 114, 1);
+    box-shadow: 0px 5px rgba(97, 84, 114, 1);
     border-style: solid;
     border-width: 1px;
+    border-color: rgba(97, 84, 114, 1);
 }
 
 .current a {
@@ -362,7 +375,7 @@ section {
 
 .current:hover {
 
-    box-shadow: 5px 5px rgba(97, 84, 114, 1);
+    box-shadow: 0px 5px rgba(97, 84, 114, 1);
     /* X shift, Y shift, Blur, Color */
     background-color: #d1d9ec;
 
@@ -533,8 +546,8 @@ section {
     }
 
     .dropdown {
-        width: 20%;
-        padding: 0;
+        width: 30%;
+        padding: 2px;
         font-size: 1.2rem;
         text-align: center;
         display: grid;
@@ -544,10 +557,10 @@ section {
 
 
     .dropdown ul {
-        position: absolute;
+        position:absolute;
         text-align: center;
         box-sizing: border-box;
-        width: 20%;
+        width: 30%;
         margin-top: -5px;
         border-style: solid;
         border-color: #A1CECB;
@@ -558,14 +571,15 @@ section {
 
 
     .current {
-        width: 20%;
-        padding: 0;
+        width: 30%;
+        padding: 2px;
         font-size: 1.2rem;
         text-align: center;
         display: grid;
 
 
     }
+
 
 
     .current ul {
