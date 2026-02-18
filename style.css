@@ -42,8 +42,12 @@ z-index: 100;
 background-color: #ffffffe6;
 
 border-style: double;
+}
 
+#container2 {
+background-color: #ffffff;
 
+border-style: double;
 }
 
 .intro h2 b {
