@@ -39,7 +39,7 @@ z-index: 100;
 }
 
 #container {
-background-color: #ffffffe6;
+background-color: white;
 
 border-style: double;
 }
@@ -87,7 +87,7 @@ color: white;
 body {
 font-family: "Inter", serif;
 font-style: normal;
-background: url("images/background.jpg") repeat center/cover;
+background: #E4ECFB repeat center/cover;
 }
 
 .padding {
@@ -107,9 +107,10 @@ text-align: center;
 border-style: solid;
 border-color: rgba(97, 84, 114, 1);
 margin-top: 10px;
-background-color: rgba(86, 136, 148, 0.33);
+background-color:rgba(153, 138, 172, 0.486);
 border-radius: 15px;
 padding:5px;
+color:rgb(65, 52, 82);
 }
 
 #about2 {
