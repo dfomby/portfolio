@@ -212,6 +212,9 @@ z-index: 100;
 border: solid 1px black;
 background-color: #b7e2e7;
 }
+#top-nav.open {
+  display: block;
+}
 
 #top-nav a {
 text-decoration: none;
@@ -221,11 +224,6 @@ color: black;
 #top-nav a:hover {
 background-color: rgba(86, 136, 148, 1);
 color: white;
-}
-
-.menuwrap:hover #top-nav {
-display: block;
-
 }
 
 .material-symbols-outlined {
@@ -509,7 +507,7 @@ margin-right: -50px;
 }
 
 #top-nav {
-display: flex;
+display: flex !important;
 position: static;
 border: none;
 background-color: rgba(97, 84, 114, 1);
@@ -544,10 +542,6 @@ margin: 0 15px;
 margin-right: -0.1px;
 }
 
-.menuwrap:hover #top-nav {
-display: flex;
-
-}
 
 .programs-cards {
 display: grid;
