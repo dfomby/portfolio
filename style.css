@@ -7,6 +7,11 @@ scroll-behavior: smooth;
 scroll-padding-top: 5rem;
 /* Adjust value as needed for your fixed header height */
 }
+object {
+  max-width: 100%;
+
+  
+}
 
 .btn {
     color: #000000;
