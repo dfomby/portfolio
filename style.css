@@ -41,7 +41,7 @@ z-index: 100;
 #container {
 background-color: white;
 
-border-style: double;
+border: solid 3px rgba(97, 84, 114, 1);
 }
 
 #container2 {
