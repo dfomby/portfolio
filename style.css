@@ -44,7 +44,7 @@ z-index: 100;
 }
 
 #container {
-background-color: white;
+background-color: rgb(255, 255, 255);
 
 border: solid 3px rgba(97, 84, 114, 1);
 }
@@ -109,8 +109,7 @@ list-style-type: none;
 
 #about {
 text-align: center;
-border-style: solid;
-border-color: rgba(97, 84, 114, 1);
+
 margin-top: 10px;
 background-color:rgba(153, 138, 172, 0.486);
 border-radius: 15px;
@@ -463,11 +462,13 @@ margin-right: auto;
 .project_container {
 background-color: #ffffff;
 border-radius: 25px;
+
+border-width:2px;
 margin-bottom: 2%;
 margin-top: 2%;
 padding: 25px;
-box-shadow: 5px 5px rgba(97, 84, 114, 0.61);
-border: solid 3px rgba(97, 84, 114, 1);
+box-shadow: 0 0 5px rgba(97, 84, 114, 0.61), 5px 5px rgba(97, 84, 114, 0.61);
+
 border-radius: 10px;
 margin-right: auto;
 margin-left: auto;
