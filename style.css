@@ -298,6 +298,8 @@ height: 100%;
 
 }
 
+
+
 .card-body {
 padding: 1em;
 }
@@ -328,10 +330,12 @@ box-shadow: 5px 10px 5px rgba(97, 84, 114, 0.61);
 transform: translateY(-5px)
 }
 
+
 /* Utility Classes */
 .responsive-img {
 width: 100%;
 }
+
 
 .c-black {
 color: black;
