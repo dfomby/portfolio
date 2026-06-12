@@ -12,22 +12,89 @@ object {
 
   
 }
+#flex {
+  display: flex;
+
+  
+  flex-wrap: wrap;
+}
+
+h2 b{
+  color:rgb(65, 52, 82);
+}
 
 .btn {
     color: #000000;
+    margin: 20px;
+    margin-left:0;
 
-    background-color:#A1CECB;
+    background-color:#58AAB5;
+    box-shadow: rgba(86, 136, 148, 1) 5px 5px ;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color:#58AAB5;
     display: inline-block;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
-    font-size: 1.6em;
+    font-size: 2em;
     padding:0.4em;
+    font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
 }
 
 .btn:hover {
-    box-shadow: 5px 5px 5px #6c736fbe;
+    box-shadow: 10px 10px 5px #6c736fbe;
+    transform: translateY(-5px);
+}
+
+.btn3 {
+    color: #000000;
+
+    background-color:#58AAB5;
+    box-shadow: rgba(86, 136, 148, 1) 5px 5px ;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style:solid;
+    border-color:#58AAB5;
+    display: inline-block;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.5s;
+    font-size: 2em;
+    padding:0.4em;
+    font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+}
+
+.btn3:hover {
+    box-shadow: 10px 10px 5px #6c736fbe;
+    transform: translateY(-5px);
+}
+
+.btn2 {
+    color: #000000;
+    margin: 20px;
+
+    background-color:white;
+    box-shadow: rgba(86, 136, 148, 1) 5px 5px ;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style:solid;
+    border-color:#58AAB5;
+    display: inline-block;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.5s;
+    font-size: 2em;
+    padding:0.4em;
+    font-family:"Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+}
+
+.btn2:hover {
+    box-shadow: 10px 10px 5px #6c736fbe;
     transform: translateY(-5px);
 }
 
@@ -43,11 +110,6 @@ transform: scale(1.3);
 z-index: 100;
 }
 
-#container {
-background-color: rgb(255, 255, 255);
-
-border: solid 3px rgba(97, 84, 114, 1);
-}
 
 #container2 {
 background-color: #ffffff;
@@ -92,7 +154,8 @@ color: white;
 body {
 font-family: "Inter", serif;
 font-style: normal;
-background: #E4ECFB repeat center/cover;
+background: #e4ecfb;
+margin:0;
 }
 
 .padding {
@@ -117,8 +180,28 @@ padding:20px;
 color:rgb(65, 52, 82);
 }
 
+#about3 {
+text-align: center;
+
+margin-top: 10px;
+background-color:rgba(153, 138, 172, 0.486);
+border-radius: 15px;
+padding:20px;
+color:rgb(65, 52, 82);
+}
+
 #about p{
   text-align:left;
+}
+
+#contact {
+text-align: center;
+
+margin-top: 10px;
+background-color:rgba(153, 138, 172, 0.486);
+border-radius: 15px;
+padding:20px;
+color:rgb(65, 52, 82);
 }
 
 #about2 {
@@ -132,9 +215,10 @@ color:white;
 
 footer {
 text-align: center;
-border-top-style: double;
+border-top:double;
+
 margin-top: 10px;
-background-color: rgba(86, 136, 148, 0.33);
+background-color: rgba(198, 230, 238, 0.476);
 padding: 10px;
 font-size: 1.1rem;
 }
@@ -281,8 +365,8 @@ flex: content;
 }
 
 .intro img {
-width: 60%;
-margin-left: 20%;
+width: 100%;
+
 
 }
 
@@ -334,6 +418,7 @@ transform: translateY(-5px)
 /* Utility Classes */
 .responsive-img {
 width: 100%;
+
 }
 
 
@@ -439,6 +524,7 @@ text-align: center;
 display:block;
 margin-left:auto;
 margin-right:auto;
+
 }
 
 .magazine img {
@@ -452,6 +538,7 @@ margin-top: 15px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 .projects_alt img {
@@ -461,6 +548,7 @@ margin-top: 15px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 .project_container {
@@ -482,6 +570,7 @@ margin-left: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
+border-radius: 15px;
 }
 
 
@@ -498,9 +587,10 @@ z-index: 100;
 }
 
 
-body {
-margin-left: 8%;
-margin-right: 8%;
+.intro img {
+width: 80%;
+
+
 }
 
 #container {
@@ -630,18 +720,23 @@ border-radius: 0 0 10px 10px;
 
 .first main {
 display: grid;
-grid-template-columns: minmax(100px, 1fr)1fr;
+grid-template-columns: minmax(100px, 1.5fr)1.5fr;
 }
 
 .intro img {
 max-width: 100%;
-float: right;
-margin-right: 40px;
+padding-left:8%;
+
 padding-top: 10px;
 margin-left: auto;
 
 
 }
+
+.intro_padding{
+  padding-top:100px;
+}
+
 
 .project_intro img {
 display: block;
