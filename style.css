@@ -295,7 +295,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 position: relative;
-background-color: rgba(97, 84, 114, 1);
+background:url('banner.png') right;
 
 }
 
@@ -635,7 +635,7 @@ margin-right: -50px;
 display: flex !important;
 position: static;
 border: none;
-background-color: rgba(97, 84, 114, 1);
+background:url('banner.png') right;
 align-items: center;
 z-index: 0;
 }
