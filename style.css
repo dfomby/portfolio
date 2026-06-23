@@ -409,12 +409,6 @@ section {
 flex: content;
 }
 
-.intro img {
-width: 100%;
-
-
-}
-
 /* Program Cards */
 .card {
 
@@ -632,6 +626,21 @@ text-decoration: underline;
 }
 
 
+.intro img {
+  width:90%;
+
+
+
+
+}
+
+.intro2 img{
+  width: 100%;
+  padding-top:5%;
+   
+
+  
+}
 
 @media (min-width:768px) {
 .expandableImage.expanded {
@@ -640,11 +649,7 @@ z-index: 100;
 }
 
 
-.intro img {
-width: 80%;
 
-
-}
 
 #container {
 margin-right: 10px;
@@ -781,15 +786,34 @@ border-radius: 0 0 10px 10px;
 
 .first main {
 display: grid;
-grid-template-columns: minmax(100px, 1.5fr)1.5fr;
+grid-template-columns: minmax(400px, 1fr)1fr;
+ gap: 5rem;
+
+}
+.first2 main{
+  display: grid;
+    grid-template-columns: minmax(300px, 1.5fr)2fr;
+    padding-top:20px;
+     gap: 4rem;
+}
+
+.intro2 img{
+    padding-top: 10px;
+    margin-left: auto;
+     padding-bottom:5%;
 }
 
 .intro img {
-max-width: 100%;
-padding-left:8%;
 
-padding-top: 10px;
-margin-left: auto;
+width:100%;
+
+ 
+  /* Step 2: Crop without squishing or stretching */
+  object-fit: cover;
+  
+  /* Optional: Center the crop (this is default) */
+
+
 
 
 }
@@ -801,8 +825,7 @@ margin-left: auto;
 
 .project_intro img {
 display: block;
-margin-left: auto;
-margin-right: auto;
+
 }
 
 .projects_alt {
@@ -817,7 +840,7 @@ height: auto;
 margin-top: 15px;
 display: block;
 margin-left: 35%;
-;
+
 }
 
 
