@@ -567,7 +567,7 @@ text-align: center;
 }
 
 .project_intro h1 {
-font-size:4.5em;
+font-size: 3em;
 }
 
 .project_intro p {
@@ -658,6 +658,9 @@ text-decoration: underline;
   align-items:center;
   flex-wrap:wrap;
   gap: 1rem;
+}
+.project_intro h1 {
+font-size:4.5em;
 }
 
 .expandableImage.expanded {
