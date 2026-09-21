@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 html {
 scroll-behavior: smooth;
@@ -30,8 +38,8 @@ object {
   display:contents;
 }
 
-h2 b{
-  color:rgb(66, 41, 12);
+h2 {
+  color:#000000;
 }
 
 .btn {
@@ -39,12 +47,12 @@ h2 b{
     margin: 20px;
     margin-left:0;
 
-    background-color:#5885b5;
-    box-shadow: #426790 5px 5px ;
+    background-color:#2E55C0;
+    box-shadow: #1C2E6B 10px 10px ;
     text-decoration: none;
     border-radius: 25px;
     border-style:solid;
-    border-color:#5885b5;
+    border-color:#2E55C0;
     display: inline-block;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
@@ -63,20 +71,17 @@ h2 b{
 .btn3 {
     color: rgb(255, 255, 255);
 
-     background-color:#5885b5;
-    box-shadow: #426790 5px 5px ;
+     background-color:#F85B11;
+    box-shadow:#9C390A 5px 5px ;
     text-decoration: none;
     border-radius: 25px;
-    border-style:solid;
-    border-color:#5885b5;
+    
     display: inline-block;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
     font-size: 1.2em;
     padding:0.4em;
     font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-   
 }
 
 .btn3:hover {
@@ -89,11 +94,11 @@ h2 b{
     margin-left:0;
 
     background-color:white;
-    box-shadow: #426790 5px 5px ;
+    box-shadow: #1C2E6B 10px 10px ;
     text-decoration: none;
     border-radius: 25px;
     border-style:solid;
-    border-color:#5885b5;
+    border-color:#2E55C0;
     display: inline-block;
     transition-property: box-shadow, transform;
     transition-duration: 0.5s;
@@ -115,7 +120,7 @@ h2 b{
     text-decoration: none;
     border-radius: 25px;
     border-style:solid;
-    border-color:#5885b5;
+    border-color:#2E55C0;
     border-width:2.5px;
     display: inline-block;
  
@@ -152,13 +157,17 @@ border-style: double;
 
 .intro h2 b {
 font-size: 3rem;
-font-family: "Klee One", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
 }
 
 .intro h2 {
-font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
 line-height: 1.5em;
 font-size: 2.1 rem;
+}
+
+h1{
+  color:#F85B11;
 }
 
 p,
@@ -166,6 +175,7 @@ h3,
 ul a, a {
 font-family: "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: 250;
+color:#000000;
 
 }
 
@@ -204,24 +214,70 @@ list-style-type: none;
 }
 
 #about {
-text-align: center;
 
-margin-top: 10px;
-background-color:rgb(191, 159, 123);
-border-radius: 15px;
 padding:20px;
-color:rgb(66, 41, 12);
+
+}
+#about h1{
+  text-align: center;
+  color:#F85B11;
 }
 
 #about3 {
 text-align: center;
 
-margin-top: 10px;
-background-color:rgb(191, 159, 123);
-border-radius: 15px;
+
+background-color:#F77F7F;
+
 padding:20px;
-color:rgb(66, 41, 12);
+
 }
+#about3 h2{
+  color:#f6ede2;
+}
+
+#about3 h3{
+  color:#f6ede2;
+}
+
+#about3 h3 a{
+  color:#f6ede2;
+}
+
+#about3 h1{
+  color:#f6ede2;
+}
+
+#about4 {
+text-align: center;
+
+background-color:#F85B11;
+
+padding:20px;
+
+}
+
+#about5 {
+text-align: center;
+
+padding:20px;
+
+}
+
+
+
+#about4 h1{
+  color:#FFF57C;
+}
+
+#about4 h2{
+  color:#FFF57C;
+}
+
+#about4 h3{
+  color:#FFF57C;
+}
+
 
 #about p{
   text-align:left;
@@ -238,29 +294,46 @@ color:rgb(66, 41, 12);
 }
 
 #about2 {
-text-align: center;
-border-style: solid;
-border-color:#5885b5;
-background-color: #5885b5;
-border-radius: 15px;
-color:white;
+
+
+background-color:#F85B11;
+
+padding:20px;
+}
+
+#about2 h1{
+  text-align: center;
+  color:#FFF57C;
+}
+#about2 h2{
+  color:#FFF57C;
+}
+
+#about2 p{
+  color:#FFF57C;
 }
 
 footer {
 text-align: center;
-border-top:double;
 
-margin-top: 10px;
-background-color: rgb(191, 159, 123);
+background-color:#2E55C0;
 padding: 10px;
 font-size: 1.1rem;
 }
 
+footer h3 a{
+  color:#FFF57C;
+  font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
+}
 
+footer p{
+  color:#FFF57C;
+}
 h2 {
 font-size: 2rem;
-font-family: "klee One";
+font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
 font-weight: 250;
+color:#F85B11;
 }
 
 h3 {
@@ -270,10 +343,12 @@ font-size: 1.5rem;
 }
 #about3 .btn3{
   color:rgb(255, 255, 255);
+  font-family:  "Inter", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #about3 a{
-  color:rgb(66, 41, 12);
+  color:#F85B11;
+  font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
 }
 
 #about3 h3 a:hover{
@@ -295,13 +370,14 @@ color: white;
 }
 
 p {
+color:#000000;
 line-height: 1.6em;
 }
 
 h1 {
-font-size: 2.3rem;
+font-size: 3rem;
 
-font-family: "Delius Swash Caps", Georgia, 'Times New Roman', Times, serif;
+font-family: "Dela Gothic One", Georgia, 'Times New Roman', Times, serif;
 font-weight: 400;
 
 letter-spacing: 0.1rem;
@@ -350,7 +426,7 @@ right: 0;
 top: 90px;
 z-index: 100;
 border: solid 1px rgb(0, 0, 0);
-background-color: rgb(191, 159, 123);
+background-color:#2E55C0;
 
 }
 #top-nav.open {
@@ -359,11 +435,11 @@ background-color: rgb(191, 159, 123);
 
 #top-nav a {
 text-decoration: none;
-color:rgb(66, 41, 12);
+color:white;
 }
 
 #top-nav a:hover {
-background-color: #5885b5;
+background-color:#F85B11;
 color: white;
 }
 
@@ -404,11 +480,14 @@ padding-right: 5px;
 .second main {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
-grid-gap: 3.5em;
+grid-gap: 2em;
 text-align: center;
-justify-content: space-evenly;
+justify-content:space-evenly;
 }
 
+.second p{
+  color:#000000;
+}
 section {
 flex: content;
 }
@@ -442,7 +521,7 @@ height: 420px;         /* Forces all images to have the exact same height */
 
 .card h2 {
 margin-top: 0;
-font-size: 1.2em;
+font-size: 1.6em;
 }
 
 .card h2 span {
@@ -485,14 +564,14 @@ text-decoration: none;
 background-color: white;
 border-style: solid;
 border-width: 1px;
-border-color: #426790;
+border-color:#1C2E6B;
 margin-bottom: 1em;
 padding: 4px;
 border-radius: 50px;
 font-size: 1.2rem;
 transition-property: transform, box-shadow, background-color;
 transition-duration: 0.5s;
-box-shadow: 0px 5px #426790;
+box-shadow: 0px 5px #1C2E6B;
 
 }
 
@@ -502,40 +581,49 @@ box-shadow: 0px 5px #426790;
 
 .dropdown a {
 text-decoration: none;
-color: black;
+color:black;
 padding: 5px;
 display: block;
+transition-property: transform, box-shadow, background-color;
 
 }
 
 
 
 .dropdown:hover {
-box-shadow: 0px 5px rgb(66, 41, 12);
+box-shadow: 0px 5px #1C2E6B;
 /* X shift, Y shift, Blur, Color */
 
-background-color: rgb(191, 159, 123);
-border-color:rgb(66, 41, 12);
+background-color: #2E55C0;
+border-color:#2E55C0;
+color:white;
+
+
 
 }
 
+.dropdown a:hover {
+
+color:white;
+}
+
 .current {
-background-color: rgb(191, 159, 123);
+background-color: #2E55C0;
 margin-bottom: 1em;
 padding: 4px;
 border-radius: 50px;
 font-size: 1.2rem;
 transition-property: transform, box-shadow;
 transition-duration: 0.5s;
-box-shadow: 0px 5px rgb(66, 41, 12);
+box-shadow: 0px 5px #1C2E6B;
 border-style: solid;
 border-width: 1px;
-border-color: rgb(66, 41, 12);
+border-color: #2E55C0;
 }
 
 .current a {
 text-decoration: none;
-color: black;
+color: white;
 padding: 5px;
 display: block;
 
@@ -543,13 +631,6 @@ display: block;
 
 
 
-.current:hover {
-
-box-shadow: 0px 5px rgb(66, 41, 12);
-/* X shift, Y shift, Blur, Color */
-background-color: rgb(191, 159, 123);
-
-}
 
 
 .card h2 span {
@@ -614,7 +695,7 @@ border-width:2px;
 margin-bottom: 4%;
 margin-top: 2%;
 padding: 25px;
-box-shadow: 0 0 5px rgb(191, 159, 123), 5px 5px rgb(191, 159, 123);;
+box-shadow: 5px 5px #F85B11;
 
 border-radius: 10px;
 margin-right: auto;
@@ -642,6 +723,15 @@ text-decoration: underline;
 
 }
 
+.intro h1{
+  font-size:4em;
+  color:#F85B11;
+}
+
+.intro h2{
+  color:#F77F7F;
+}
+
 .intro2 img{
   width: 100%;
   padding-top:5%;
@@ -651,6 +741,9 @@ text-decoration: underline;
 }
 
 @media (min-width:768px) {
+h1{
+  font-size: 4rem;
+}
 
   #flex3 {
   display:flex;
@@ -839,7 +932,7 @@ width:100%;
 }
 
 .intro_padding{
-  padding-top:7em;
+  padding-top:5em;
 }
 
 
