@@ -514,7 +514,7 @@ padding: 1em;
 .card img {
 border-radius: 6.5px;
 width: 100%;           /* Makes the image stretch to the full width of the card */
-height: 420px;         /* Forces all images to have the exact same height */
+height: 450px;         /* Forces all images to have the exact same height */
   object-fit: cover; 
 }
 
